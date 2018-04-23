@@ -233,26 +233,56 @@ p {
   width: 50%;
 }
 
+.select-style {
+    border: 1px solid #ccc;
+    width: 400px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
 </style>
 <h4 class="my-4">
-ABOUT US
+DROP US A LINE
 </h4>
-<div class="graybg withPadding">
 <h5 class="my-4">
-HISTORY
+Types of Inquiry:
 </h5>
-<br>
-<p>
-Potato Corner, dubbed as the <b>World’s Best Flavored Fries</b>, has been a leading brand in the food industry for 25 years with over <b>1,100 branches worldwide. </b>
-</p>
-<p>
-Potato Corner opened its first outlet in the Philippines in October 1992 and began franchising the year after. Today, it has grown from small carts into in-line stores found in almost every corner of the world – in malls, schools, hospitals, bus stations, amusement parks, and even tourist destinations in multiple countries. In every corner of the world, someone wants Potato Corner.
-</p>
-<p>
-Throughout the years, Potato Corner has garnered numerous awards, mostly recognizing its excellent business model and well-loved brand. It has received the <b>Franchise Excellence Hall of Fame Award</b> by the Philippine Franchise Association and Department of Trade and Industry in 2003, won <b>Best Franchise of the Year</b> on three consecutive years, and most recently, bagged the <b>Global Franchise Award</b> recognized by the same institution. Potato Corner is truly an iconic brand for kids and kids-at-heart and a distinguished business venture for entrepreneurs.
-</p>
-<p><br> <img src="assets/samplepic.png" class="center" style="width:840px;"></p>
+<div class="select-style">
+<pre><code>&lt;select&gt;
+  &lt;option value=&quot;o1&quot;&gt;Franchising Inquiry Philippines&lt;/option&gt;
+  &lt;option value=&quot;o2&quot;&gt;Franchising Inquiry International&lt;/option&gt;
+  &lt;option value=&quot;o3&quot;&gt;Sponsorship Request&lt;/option&gt;
+  &lt;option value=&quot;o4&quot;&gt;Product/Store Complaint&lt;/option&gt;
+  &lt;option value=&quot;o5&quot;&gt;Product/Store Commendation&lt;/option&gt;
+  &lt;option value=&quot;o6&quot;&gt;Suggestion&lt;/option&gt;
+&lt;/select&gt;</code></pre>
 </div>
+<h5 class="my-4">
+Your Name
+</h5>
+<div class="withPadding">
+<p><input type="text" value="Mickey"></p>
+</div>
+<h5 class="my-4">
+Your Email
+</h5>
+<h5 class="my-4">
+Your Comment
+</h5>
 
 
 
