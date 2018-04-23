@@ -1,28 +1,51 @@
 ---
-title: "contact"
+title: ""
 output: html_document
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+<style>
+h4, h5{
+  color: SeaGreen ;
+  font-family: Verdana;
+}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+p {
+  font-family: Verdana;
+  font-size: 13px;
+}
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+.graybg {
+  background-color: WhiteSmoke  ;
+}
 
-```{r cars}
-summary(cars)
-```
+.withPadding{
+  padding:2%;
+}
+  
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-## Including Plots
+</style>
 
-You can also embed plots, for example:
+<h4 class="my-4">ABOUT US</h4>
+<div class="graybg withPadding">
+  <h5 class="my-4">HISTORY </h5>
+  <br>
+  <p>Potato Corner, dubbed as the <b>World’s Best Flavored Fries</b>, has been a leading brand in the food industry for 25 years with over <b>1,100 branches worldwide. </b></p>
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+  <p>Potato Corner opened its first outlet in the Philippines in October 1992 and began franchising the year after. Today, it has grown from small carts into in-line stores found in almost every corner of the world – in malls, schools, hospitals, bus stations, amusement parks, and even tourist destinations in multiple countries. In every corner of the world, someone wants Potato Corner. </p>
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+  <p>Throughout the years, Potato Corner has garnered numerous awards, mostly recognizing its excellent business model and well-loved brand. It has received the <b>Franchise Excellence Hall of Fame Award</b> by the Philippine Franchise Association and Department of Trade and Industry in 2003, won <b>Best Franchise of the Year</b> on three consecutive years, and most recently, bagged the <b>Global Franchise Award</b> recognized by the same institution. Potato Corner is truly an iconic brand for kids and kids-at-heart and a distinguished business venture for entrepreneurs. </p>
+  <br>
+  <img src="assets/samplepic.png" class="center" style="width:840px;">
+  
+</div>
