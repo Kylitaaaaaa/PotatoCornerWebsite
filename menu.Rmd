@@ -1,0 +1,28 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+h4, h5{
+  color: SeaGreen ;
+  font-family: Verdana;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 13px;
+}
+
+.graybg {
+  background-color: WhiteSmoke  ;
+}
+
+.withPadding{
+  padding:2%;
+}
+</style>

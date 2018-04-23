@@ -1,0 +1,57 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+h4, h5{
+  color: SeaGreen ;
+  font-family: Verdana;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 13px;
+}
+
+.graybg {
+  background-color: WhiteSmoke  ;
+}
+
+.withPadding{
+  padding:2%;
+}
+</style>
+
+
+![](assets/homepagepic1.jpg)
+
+<br><br>
+
+
+<div class="withPadding">
+  <h4 class="my-4" style="text-align:center">THE LATEST FROM POTATO CORNER</h4>
+  <br>
+  <img src="assets/news.png" style="width:280px;">
+  <img src="assets/franchise.png" style="width:280px;">
+  <img src="assets/specialevents.png" style="width:280px;">
+  
+</div>
+
+
+<br><br>
+
+<div class="graybg withPadding">
+  <h4 class="my-4" style="text-align:center">FOLLOW US ON POTATO CORNER</h4>
+  <br>
+  <p  style="text-align:center">Feel the Flavor with everyone's favorite fries! Don't forget to tag us and show how you #FlavorTheMoment </p>
+  <br>
+  <img src="assets/ig1.png" style="width:280px;">
+  <img src="assets/ig2.png" style="width:280px;">
+  <img src="assets/ig3.png" style="width:280px;">
+  
+</div>
