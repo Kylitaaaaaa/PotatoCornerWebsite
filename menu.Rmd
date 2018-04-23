@@ -26,3 +26,33 @@ p {
   padding:2%;
 }
 </style>
+<br>
+<br>
+<h4 class="my-4" style=">POTATO CORNER MENU</h4>
+<br>
+<h5 class="my-4" style=">BEST FLAVORED FRIES</h5>
+<div class="withPadding">
+  <img src="fries.png" style="width:842px;">
+</div>
+
+
+<h5 class="my-4" style=">FANCY FRIES</h5>
+
+<div class="withPadding">
+  <img src="assets/jojo.png" style="width:420px;">
+  <img src="assets/hashbrown.png" style="width:420px;">
+  
+</div>
+
+<h5 class="my-4" style=">SIZES</h5>
+
+<div class="withPadding">
+  <img src="assets/regular.png" style="width:280px;">
+  <img src="assets/large.png" style="width:280px;">
+  <img src="assets/jumbo.png" style="width:280px;">
+  <br>
+  <br>
+  <img src="assets/mega.png" style="width:280px;">
+  <img src="assets/giga.png" style="width:280px;">
+  <img src="assets/tera.png" style="width:280px;">
+</div>
